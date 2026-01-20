@@ -23,7 +23,7 @@ resource "aws_subnet" "example_subnet" {
   availability_zone = "us-east-1a"
 
   tags = {
-    Name = "example-subnet"
+    Name = "example-subnett"
   }
 }
 resource "aws_instance" "example" {
