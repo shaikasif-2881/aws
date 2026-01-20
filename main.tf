@@ -32,7 +32,7 @@ resource "aws_instance" "example" {
   subnet_id     = aws_subnet.example_subnet.id
 
   tags = {
-    Name = "dev-server"
+    Name = "dev-serverr"
   }
 }
 
